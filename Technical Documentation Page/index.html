@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Technical Documentation Page</title>
+</head>
+
+<body>
+    <nav id="navbar">
+        <header>
+            HTML Forms
+        </header>
+        <ul>
+            <li><a href="#HTML_Forms" class="nav-link">HTML Forms</a></li>
+            <li><a href="#HTML_Form_Elements" class="nav-link">HTML Form Elements</a></li>
+            <li><a href="#HTML_Input_Types" class="nav-link">HTML Input Types</a></li>
+            <li><a href="#HTML_Input_Attributes" class="nav-link">HTML Input Attributes</a></li>
+            <li><a href="#HTML_Input_form_Attributes" class="nav-link">HTML Input form Attributes</a></li>
+        </ul>
+    </nav>
+
+    <main id="main-doc">
+        <!-- p10 code5 li5 <article></article> <p></p>
+    <code></code><li></li>
+    -->
+        <section class="main-section" id="HTML_Forms">
+            <header>HTML Forms</header>
+            <article>The &lt;form&gt; Element</article>
+            <p>The HTML <span>&lt;form&gt;</span> element defines a form that is used to collect user input:</p>
+            <code>
+    &lt;form&gt;<br>
+    
+    form elements</br>
+    
+    &lt;/form&gt;
+      </code>
+            <p>An HTML form contains <b>form elements.</b></p>
+
+            <p>Form elements are different types of input elements, like: text fields, checkboxes, radio buttons, submit
+                buttons, and more.</p>
+        </section>
+
+        <section class="main-section" id="HTML_Form_Elements">
+            <header>HTML Form Elements</header>
+            <article>This chapter describes some of the different HTML form elements.</article>
+            <ul>
+                <li>The input Element</li>
+                <li>The select Element</li>
+                <li>The textarea Element</li>
+                <li>The button Element</li>
+                <li>The output Element</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="HTML_Input_Types">
+            <header>HTML Input Types</header>
+
+            <p>Here are the different input types you can use in HTML:</p>
+            <ul>
+                <li><code class="w3-codespan">&lt;input type=&quot;button&quot;&gt;</code></li>
+                <li><code class="w3-codespan">&lt;input type=&quot;checkbox&quot;&gt;</code></li>
+                <li><code class="w3-codespan">&lt;input type=&quot;color&quot;&gt;</code></li>
+                <li><code class="w3-codespan">&lt;input type=&quot;date&quot;&gt;</code></li>
+                <li><code class="w3-codespan">&lt;input type=&quot;datetime-local&quot;&gt;</code></li>
+                <li><code class="w3-codespan">&lt;input type=&quot;email&quot;&gt;</code></li>
+                <li><code class="w3-codespan">&lt;input type=&quot;file&quot;&gt;</code></li>
+                <li><code class="w3-codespan">&lt;input type=&quot;hidden&quot;&gt;</code></li>
+                <li><code class="w3-codespan">&lt;input type=&quot;image&quot;&gt;</code></li>
+                <li><code class="w3-codespan">&lt;input type=&quot;month&quot;&gt;</code></li>
+                <li><code class="w3-codespan">&lt;input type=&quot;number&quot;&gt;</code></li>
+                <li><code class="w3-codespan">&lt;input type=&quot;password&quot;&gt;</code></li>
+                <li><code class="w3-codespan">&lt;input type=&quot;radio&quot;&gt;</code></li>
+                <li><code class="w3-codespan">&lt;input type=&quot;range&quot;&gt;</code></li>
+                <li><code class="w3-codespan">&lt;input type=&quot;reset&quot;&gt;</code></li>
+                <li><code class="w3-codespan">&lt;input type=&quot;search&quot;&gt;</code></li>
+                <li><code class="w3-codespan">&lt;input type=&quot;submit&quot;&gt;</code></li>
+                <li><code class="w3-codespan">&lt;input type=&quot;tel&quot;&gt;</code></li>
+                <li><code class="w3-codespan">&lt;input type=&quot;text&quot;&gt;</code></li>
+                <li><code class="w3-codespan">&lt;input type=&quot;time&quot;&gt;</code></li>
+                <li><code class="w3-codespan">&lt;input type=&quot;url&quot;&gt;</code></li>
+                <li><code class="w3-codespan">&lt;input type=&quot;week&quot;&gt;</code></li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="HTML_Input_Attributes">
+            <header>HTML Input Attributes</header>
+            <article>The value Attribute</article>
+            <p>The input value attribute specifies an initial value for an input field:</p>
+            <p>Example</p>
+            <p>Input fields with initial (default) values:</p>
+            <code>&lt;form&gt;
+       &lt;for="fname"&gt;First name:</><br>
+      &lt;input type="text" id="fname" name="fname" value="John"&gt;<br>
+      &lt;for="lname"&gt;Last name:</lt><br>
+      &lt;input type="text" id="lname" name="lname" value="Doe"&gt;
+    &lt;/form&gt;</code>
+        </section>
+
+        <section class="main-section" id="HTML_Input_form_Attributes">
+            <header>HTML Input form Attributes</header>
+            <article>HTML Form and Input Elements</article>
+            <p>The input form attribute specifies the form the &lt;input&gt; element belongs to.</p>
+
+            <p>The value of this attribute must be equal to the id attribute of the &lt;form&gt; element it belongs to.
+            </p>
+            <table border="1">
+                <th>Tag</th>
+                <th>Description</th>
+                <tr>
+                    <td>&lt;form&gt;</td>
+                    <td>Defines an HTML form for user input</td>
+                </tr>
+                <tr>
+                    <td>&lt;input&gt;</td>
+                    <td>Defines an input control</td>
+                </tr>
+                <p>For a complete list of all available HTML tags, visit our <a
+                        href="https://www.w3schools.com/tags/default.asp">HTML Tag Reference.</p>
+        </section>
+    </main>
+</body>
+
+</html>
