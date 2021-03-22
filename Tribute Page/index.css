@@ -1,0 +1,46 @@
+.container{
+    display: block;
+    margin: 0;
+    background-color:#DCDCDC ;
+  }
+  .center{
+  text-align: center;
+  font-size:1em; 
+  }
+  .text-center{
+   font-size: 3em; 
+  }
+  #img-div{
+    background-color: #C0C0C0;
+    margin: 1%;
+  }
+  #image{
+  /*   width: 80%; */
+    max-width:100%;
+    margin:0 auto;  
+    display:block;
+    padding-top: 3%;
+   }
+  .line{
+   text-align: center; 
+  }
+  .list{
+    text-align: left;
+    list-style: none;
+    line-height: 1.5em;  
+  }
+  li{
+    width: 420px;
+    margin: 5px auto ;
+    text-align: left;
+  }
+  #img-caption{
+   text-align: center; 
+   font-size: 18px;
+  }
+
+  .wiki{
+      display: block;
+      text-align: center;
+      margin-top: 40px;
+  }
