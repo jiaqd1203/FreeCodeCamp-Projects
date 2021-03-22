@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <div class = "container">
+        <h1 id = "title">Soccer equipment survey</h1>
+        <p id = "description">Please give us  the feedback about our football boots.</p>
+        <form id = "survey-form"> 
+        <label for = "name" id = "name-label">Name</label>
+          <input type = "text" id = "name" placeholder = "&nbsp enter your name" required></br>
+        <label for = "email" id = "email-label" for = "email">Email</label>
+          <input type = "email" id = "email" placeholder = "&nbsp enter your email" required><br>
+        <label for = "number" id = "number-label">Size</label>
+          <input type = "number" id = "number" placeholder = "&nbsp enter your size" min = "1" max = "20" required></br>
+        <label for = "brand" id = "brand-label">Which brand you prefer</label>
+          <select name = "brand" id = "dropdown">
+            <option>select</option>
+            <option>adidas</option>
+            <option>nike</option>
+            <option>puma</option>
+      </select>
+      <p class = "satisfied">How did you satisfied our service ?</p>        
+      <label><input type = "radio" name = "feedback" id = "feedback">
+        satisfied</label>
+      <label><input type = "radio" name = "feedback" id = "feedback">
+      normal</label>
+      <label><input type = "radio" name = "feedback" id = "feedback"> unsatisfied</label>      
+      <p class = "field-type">Which type would you like?</p>
+      <label class = "type"><input type = "checkbox" name = "type" value = "AG" >AG</label>
+      <label class = "type"><input type = "checkbox" name = "type" value = "FG" >FG</label>
+      <label class = "type"><input type = "checkbox" name ="type" value = "SG" >SG</label>
+      <p class= "advice">Any comments ?</p>
+      <textarea id = "comment" placeholder = " enter your comment here"></textarea></br>
+      <button type = "submit" id = "submit">submit</button>
+      </form>
+      </div>
+</body>
+</html>
